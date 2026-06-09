@@ -1,0 +1,27 @@
+{
+  "bert_seed42_wf1_ci": [
+    0.7137,
+    0.855
+  ],
+  "bert_seed42_mf1_ci": [
+    0.6388,
+    0.8162
+  ],
+  "bert_aggregate": {
+    "weighted_f1_mean": 0.7726,
+    "weighted_f1_std": 0.0131,
+    "macro_f1_mean": 0.7264,
+    "macro_f1_std": 0.0171
+  },
+  "bert_per_class_mean_f1": {
+    "F": 0.88,
+    "LF": 0.75,
+    "O": 0.7,
+    "Other": 0.67,
+    "PE": 0.67,
+    "SE": 0.8,
+    "US": 0.61
+  },
+  "mcnemar_svm_vs_bert": 0.844519,
+  "mcnemar_svm_vs_llm": 0.164915
+}

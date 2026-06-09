@@ -1,0 +1,258 @@
+{
+  "5a_zeroshot_original": {
+    "weighted_precision": 0.6306,
+    "weighted_recall": 0.704,
+    "weighted_f1": 0.6507,
+    "macro_precision": 0.6812,
+    "macro_recall": 0.6359,
+    "macro_f1": 0.644,
+    "weighted_f1_ci": [
+      0.5632,
+      0.7431
+    ],
+    "macro_f1_ci": [
+      0.5494,
+      0.7093
+    ],
+    "parse_errors": 18,
+    "total_samples": 125,
+    "per_class": {
+      "F": {
+        "precision": 0.6351351351351351,
+        "recall": 0.9215686274509803,
+        "f1-score": 0.752,
+        "support": 51.0
+      },
+      "LF": {
+        "precision": 1.0,
+        "recall": 0.625,
+        "f1-score": 0.7692307692307693,
+        "support": 8.0
+      },
+      "O": {
+        "precision": 0.8,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.7272727272727273,
+        "support": 12.0
+      },
+      "Other": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 17.0
+      },
+      "PE": {
+        "precision": 0.75,
+        "recall": 0.5454545454545454,
+        "f1-score": 0.631578947368421,
+        "support": 11.0
+      },
+      "SE": {
+        "precision": 0.75,
+        "recall": 0.9230769230769231,
+        "f1-score": 0.8275862068965517,
+        "support": 13.0
+      },
+      "US": {
+        "precision": 0.8333333333333334,
+        "recall": 0.7692307692307693,
+        "f1-score": 0.8,
+        "support": 13.0
+      }
+    },
+    "total_time_s": 276.4,
+    "inference_ms_per_sample": 2211.3
+  },
+  "5b_zeroshot_improved": {
+    "weighted_precision": 0.6367,
+    "weighted_recall": 0.688,
+    "weighted_f1": 0.6342,
+    "macro_precision": 0.7067,
+    "macro_recall": 0.5955,
+    "macro_f1": 0.6267,
+    "weighted_f1_ci": [
+      0.5457,
+      0.7258
+    ],
+    "macro_f1_ci": [
+      0.5267,
+      0.6997
+    ],
+    "parse_errors": 25,
+    "total_samples": 125,
+    "per_class": {
+      "F": {
+        "precision": 0.5975609756097561,
+        "recall": 0.9607843137254902,
+        "f1-score": 0.7368421052631579,
+        "support": 51.0
+      },
+      "LF": {
+        "precision": 1.0,
+        "recall": 0.625,
+        "f1-score": 0.7692307692307693,
+        "support": 8.0
+      },
+      "O": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.8,
+        "support": 12.0
+      },
+      "Other": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 17.0
+      },
+      "PE": {
+        "precision": 0.7142857142857143,
+        "recall": 0.45454545454545453,
+        "f1-score": 0.5555555555555556,
+        "support": 11.0
+      },
+      "SE": {
+        "precision": 0.8571428571428571,
+        "recall": 0.9230769230769231,
+        "f1-score": 0.8888888888888888,
+        "support": 13.0
+      },
+      "US": {
+        "precision": 0.7777777777777778,
+        "recall": 0.5384615384615384,
+        "f1-score": 0.6363636363636364,
+        "support": 13.0
+      }
+    },
+    "total_time_s": 324.8,
+    "inference_ms_per_sample": 2598.0
+  },
+  "5c_fewshot_k5": {
+    "weighted_precision": 0.5086,
+    "weighted_recall": 0.472,
+    "weighted_f1": 0.3564,
+    "macro_precision": 0.605,
+    "macro_recall": 0.2625,
+    "macro_f1": 0.2733,
+    "weighted_f1_ci": [
+      0.263,
+      0.4566
+    ],
+    "macro_f1_ci": [
+      0.1697,
+      0.3592
+    ],
+    "parse_errors": 98,
+    "total_samples": 125,
+    "per_class": {
+      "F": {
+        "precision": 0.43478260869565216,
+        "recall": 0.9803921568627451,
+        "f1-score": 0.6024096385542169,
+        "support": 51.0
+      },
+      "LF": {
+        "precision": 1.0,
+        "recall": 0.375,
+        "f1-score": 0.5454545454545454,
+        "support": 8.0
+      },
+      "O": {
+        "precision": 1.0,
+        "recall": 0.08333333333333333,
+        "f1-score": 0.15384615384615385,
+        "support": 12.0
+      },
+      "Other": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 17.0
+      },
+      "PE": {
+        "precision": 1.0,
+        "recall": 0.09090909090909091,
+        "f1-score": 0.16666666666666666,
+        "support": 11.0
+      },
+      "SE": {
+        "precision": 0.8,
+        "recall": 0.3076923076923077,
+        "f1-score": 0.4444444444444444,
+        "support": 13.0
+      },
+      "US": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 13.0
+      }
+    },
+    "total_time_s": 6607.7,
+    "inference_ms_per_sample": 52861.5
+  },
+  "5d_fewshot_k3": {
+    "weighted_precision": 0.5823,
+    "weighted_recall": 0.584,
+    "weighted_f1": 0.5204,
+    "macro_precision": 0.6636,
+    "macro_recall": 0.4251,
+    "macro_f1": 0.4724,
+    "weighted_f1_ci": [
+      0.421,
+      0.6164
+    ],
+    "macro_f1_ci": [
+      0.3576,
+      0.5533
+    ],
+    "parse_errors": 4,
+    "total_samples": 125,
+    "per_class": {
+      "F": {
+        "precision": 0.5104166666666666,
+        "recall": 0.9607843137254902,
+        "f1-score": 0.6666666666666666,
+        "support": 51.0
+      },
+      "LF": {
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1-score": 0.4,
+        "support": 8.0
+      },
+      "O": {
+        "precision": 1.0,
+        "recall": 0.5833333333333334,
+        "f1-score": 0.7368421052631579,
+        "support": 12.0
+      },
+      "Other": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 17.0
+      },
+      "PE": {
+        "precision": 0.5,
+        "recall": 0.18181818181818182,
+        "f1-score": 0.26666666666666666,
+        "support": 11.0
+      },
+      "SE": {
+        "precision": 0.7777777777777778,
+        "recall": 0.5384615384615384,
+        "f1-score": 0.6363636363636364,
+        "support": 13.0
+      },
+      "US": {
+        "precision": 0.8571428571428571,
+        "recall": 0.46153846153846156,
+        "f1-score": 0.6,
+        "support": 13.0
+      }
+    },
+    "total_time_s": 83.1,
+    "inference_ms_per_sample": 665.0
+  }
+}

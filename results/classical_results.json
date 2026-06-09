@@ -1,0 +1,193 @@
+{
+  "majority_baseline": {
+    "weighted_precision": 0.1665,
+    "weighted_recall": 0.408,
+    "weighted_f1": 0.2365,
+    "macro_precision": 0.0583,
+    "macro_recall": 0.1429,
+    "macro_f1": 0.0828,
+    "per_class": {
+      "F": {
+        "precision": 0.408,
+        "recall": 1.0,
+        "f1-score": 0.5795454545454546,
+        "support": 51.0
+      },
+      "LF": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 8.0
+      },
+      "O": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 12.0
+      },
+      "Other": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 17.0
+      },
+      "PE": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 11.0
+      },
+      "SE": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 13.0
+      },
+      "US": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 13.0
+      }
+    },
+    "weighted_f1_ci": [
+      0.1688,
+      0.3289
+    ],
+    "macro_f1_ci": [
+      0.0718,
+      0.0947
+    ]
+  },
+  "logistic_regression": {
+    "weighted_precision": 0.7653,
+    "weighted_recall": 0.76,
+    "weighted_f1": 0.7569,
+    "macro_precision": 0.7117,
+    "macro_recall": 0.7052,
+    "macro_f1": 0.6989,
+    "per_class": {
+      "F": {
+        "precision": 0.8653846153846154,
+        "recall": 0.8823529411764706,
+        "f1-score": 0.8737864077669902,
+        "support": 51.0
+      },
+      "LF": {
+        "precision": 0.5,
+        "recall": 0.75,
+        "f1-score": 0.6,
+        "support": 8.0
+      },
+      "O": {
+        "precision": 0.75,
+        "recall": 0.5,
+        "f1-score": 0.6,
+        "support": 12.0
+      },
+      "Other": {
+        "precision": 0.6666666666666666,
+        "recall": 0.7058823529411765,
+        "f1-score": 0.6857142857142857,
+        "support": 17.0
+      },
+      "PE": {
+        "precision": 0.7,
+        "recall": 0.6363636363636364,
+        "f1-score": 0.6666666666666666,
+        "support": 11.0
+      },
+      "SE": {
+        "precision": 0.8,
+        "recall": 0.9230769230769231,
+        "f1-score": 0.8571428571428571,
+        "support": 13.0
+      },
+      "US": {
+        "precision": 0.7,
+        "recall": 0.5384615384615384,
+        "f1-score": 0.6086956521739131,
+        "support": 13.0
+      }
+    },
+    "weighted_f1_ci": [
+      0.68,
+      0.8286
+    ],
+    "macro_f1_ci": [
+      0.5876,
+      0.7802
+    ],
+    "cv_weighted_f1_mean": 0.7701,
+    "cv_weighted_f1_std": 0.0384,
+    "train_time_s": 0.2048,
+    "inference_ms_per_sample": 0.0032
+  },
+  "svm": {
+    "weighted_precision": 0.79,
+    "weighted_recall": 0.784,
+    "weighted_f1": 0.7759,
+    "macro_precision": 0.7602,
+    "macro_recall": 0.6994,
+    "macro_f1": 0.7156,
+    "per_class": {
+      "F": {
+        "precision": 0.8448275862068966,
+        "recall": 0.9607843137254902,
+        "f1-score": 0.8990825688073395,
+        "support": 51.0
+      },
+      "LF": {
+        "precision": 0.5555555555555556,
+        "recall": 0.625,
+        "f1-score": 0.5882352941176471,
+        "support": 8.0
+      },
+      "O": {
+        "precision": 0.875,
+        "recall": 0.5833333333333334,
+        "f1-score": 0.7,
+        "support": 12.0
+      },
+      "Other": {
+        "precision": 0.631578947368421,
+        "recall": 0.7058823529411765,
+        "f1-score": 0.6666666666666666,
+        "support": 17.0
+      },
+      "PE": {
+        "precision": 0.7,
+        "recall": 0.6363636363636364,
+        "f1-score": 0.6666666666666666,
+        "support": 11.0
+      },
+      "SE": {
+        "precision": 0.8571428571428571,
+        "recall": 0.9230769230769231,
+        "f1-score": 0.8888888888888888,
+        "support": 13.0
+      },
+      "US": {
+        "precision": 0.8571428571428571,
+        "recall": 0.46153846153846156,
+        "f1-score": 0.6,
+        "support": 13.0
+      }
+    },
+    "weighted_f1_ci": [
+      0.7014,
+      0.8456
+    ],
+    "macro_f1_ci": [
+      0.6147,
+      0.7955
+    ],
+    "cv_weighted_f1_mean": 0.739,
+    "cv_weighted_f1_std": 0.0668,
+    "cv_macro_f1_mean": 0.7069,
+    "cv_macro_f1_std": 0.0798,
+    "train_time_s": 0.1731,
+    "inference_ms_per_sample": 0.1159
+  },
+  "mcnemar_svm_vs_lr": 0.449692
+}
